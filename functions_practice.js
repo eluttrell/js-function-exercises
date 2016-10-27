@@ -60,23 +60,67 @@
 // cities2(cities);
 
 // Good Job1
-var people = [
-  'Dom',
-  'Lyn',
-  'Kirk',
-  'Autumn',
-  'Trista',
-  'Jesslyn',
-  'Kevin',
-  'John',
-  'Eli',
-  'Juan',
-  'Robert',
-  'Keyur',
-  'Jason',
-  'Che',
-  'Ben'
-];
-var goodJob = people.forEach(function(person) {
-  console.log("Good job, " + person + "!");
-});
+// var people = [
+//   'Dom',
+//   'Lyn',
+//   'Kirk',
+//   'Autumn',
+//   'Trista',
+//   'Jesslyn',
+//   'Kevin',
+//   'John',
+//   'Eli',
+//   'Juan',
+//   'Robert',
+//   'Keyur',
+//   'Jason',
+//   'Che',
+//   'Ben'
+// ];
+// var goodJob = people.forEach(function(person) {
+//   console.log("Good job, " + person + "!");
+// });
+
+// Sort an Array 1
+// ::Uses var people from above
+// var sortArr = people.sort();
+// console.log(sortArr);
+
+// Sort an Array 2
+// ::Uses var people from above
+// people.sort(function(a, b) {
+//   return a.length - b.length;
+// });
+// console.log(people);
+
+// Sort an Array 3
+// var arr = [
+//   [1, 3, 4],
+//   [2, 4, 6, 8],
+//   [3, 6]
+// ];
+//
+// function sum(arr) {
+//   return arr.reduce(function(a, b) {
+//     return a + b;
+//   });
+// }
+//
+// function compare(arr1, arr2) {
+//   return sum(arr1) - sum(arr2);
+// }
+// var ans = arr.sort(compare);
+// console.log(ans);
+
+// 3 Items
+var hello = function() {
+  console.log('Hello, world!');
+};
+
+function hello3Times(fun) {
+  fun();
+  fun();
+  fun();
+}
+
+hello3Times(hello);
