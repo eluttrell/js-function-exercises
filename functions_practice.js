@@ -7,9 +7,17 @@
 // console.log(pos_arr);
 
 // Even Numbers
-var arr = [1,2,4,5,6,7,8,9,10];
-function even_num(n) {
-  return n % 2 === 0;
+// var arr = [1,2,4,5,6,7,8,9,10];
+// function even_num(n) {
+//   return n % 2 === 0;
+// }
+// var ans = arr.filter(even_num);
+// console.log(ans);
+
+// Square Numbers
+var arr = [1,2,3,4,5,6,7,8,9,10];
+function square(n) {
+  return Math.pow(n, 2);
 }
-var ans = arr.filter(even_num);
+var ans = arr.map(square);
 console.log(ans);
