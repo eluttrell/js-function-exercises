@@ -29,12 +29,12 @@
 // squareTheNumbers([1,2,3,4,5,6,7,8,9,10]);
 
 // Cities 1
-var cities = [
-  { name: 'Los Angeles', temperature: 60.0},
-  { name: 'Atlanta', temperature: 52.0 },
-  { name: 'Detroit', temperature: 48.0 },
-  { name: 'New York', temperature: 80.0 }
-];
+// var cities = [
+//   { name: 'Los Angeles', temperature: 60.0},
+//   { name: 'Atlanta', temperature: 52.0 },
+//   { name: 'Detroit', temperature: 48.0 },
+//   { name: 'New York', temperature: 80.0 }
+// ];
 // var cities1 = function(arr) {
 //   function temp(n) {
 //     return n.temperature < 70;
@@ -45,10 +45,38 @@ var cities = [
 // cities1(cities);
 
 // Cities 2
-var cities2 = function(arr) {
-  function cityName(n) {
-    return n.name;
-  }
-  console.log(arr.map(cityName));
-};
-cities2(cities);
+// var cities = [
+//   { name: 'Los Angeles', temperature: 60.0},
+//   { name: 'Atlanta', temperature: 52.0 },
+//   { name: 'Detroit', temperature: 48.0 },
+//   { name: 'New York', temperature: 80.0 }
+// ];
+// var cities2 = function(arr) {
+//   function cityName(n) {
+//     return n.name;
+//   }
+//   console.log(arr.map(cityName));
+// };
+// cities2(cities);
+
+// Good Job1
+var people = [
+  'Dom',
+  'Lyn',
+  'Kirk',
+  'Autumn',
+  'Trista',
+  'Jesslyn',
+  'Kevin',
+  'John',
+  'Eli',
+  'Juan',
+  'Robert',
+  'Keyur',
+  'Jason',
+  'Che',
+  'Ben'
+];
+var goodJob = people.forEach(function(person) {
+  console.log("Good job, " + person + "!");
+});
