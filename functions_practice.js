@@ -35,11 +35,20 @@ var cities = [
   { name: 'Detroit', temperature: 48.0 },
   { name: 'New York', temperature: 80.0 }
 ];
-var cities1 = function(arr) {
-  function temp(n) {
-    return n.temperature < 70;
+// var cities1 = function(arr) {
+//   function temp(n) {
+//     return n.temperature < 70;
+//   }
+//   var ans = arr.filter(temp);
+//   console.log(ans);
+// };
+// cities1(cities);
+
+// Cities 2
+var cities2 = function(arr) {
+  function cityName(n) {
+    return n.name;
   }
-  var ans = arr.filter(temp);
-  console.log(ans);
+  console.log(arr.map(cityName));
 };
-cities1(cities);
+cities2(cities);
